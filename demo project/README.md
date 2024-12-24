@@ -1,18 +1,47 @@
-## Getting Started
+Overview
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The Student Grade Tracker is a Java console-based application that helps users input, calculate, and analyze grades for students. It computes the average grade, converts it to a letter grade, and calculates the GPA.
 
-## Folder Structure
+This project is ideal for students, teachers, or anyone looking to manage and analyze academic performance efficiently. It provides a clear summary of grades and can be expanded for more advanced use cases.
 
-The workspace contains two folders by default, where:
+Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Grade Input:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Accepts multiple grades (0–100).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Validates input to ensure grades are within the proper range.
 
-## Dependency Management
+Average Calculation:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Computes the average of all grades entered.
+
+Grade Representation:
+
+Converts average grades into a letter grade (A, B, C, D, or F).
+
+Calculates the GPA corresponding to the average grade.
+
+Output Summary:
+
+Displays grades entered, average grade, letter grade, and GPA.
+
+Usage
+
+Clone the repository or copy the Java file to your local environment.
+
+Compile the program:
+
+javac StudentGradeTracker.java
+
+Run the program:
+
+java StudentGradeTracker
+
+Follow the prompts to:
+
+Enter grades.
+
+Decide whether to input more grades.
+
+View the summary of grades and performance.
